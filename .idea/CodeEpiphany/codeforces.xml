@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.wenjun.codeepiphany.codeforces.settings">
+    <option name="languageSettings">
+      <list>
+        <LanguageSettingsState sourceFolder="E:\mastercode\CodingTestfForPython\epiphany\codeforces" language="pypy" languageVersion="3.10(7.3.15 64bit)" fileNameTemplate="#if($challenge.slug)    $!velocity.camelCaseName($challenge.slug)#elseif($challenge.name)    $!velocity.camelCaseName($challenge.name)#elseif($challenge.title)    $!velocity.camelCaseName($challenge.title)#else    &quot;Unknown&quot;#end" codeTemplate="${beginRegion}&#10;&#10;${endRegion}" />
+      </list>
+    </option>
+  </component>
+</project>

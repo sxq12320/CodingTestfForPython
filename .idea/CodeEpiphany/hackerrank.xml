@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.wenjun.codeepiphany.hackerrank.settings">
+    <option name="languageSettings">
+      <list>
+        <LanguageSettingsState sourceFolder="E:\mastercode\CodingTestfForPython\epiphany\hackerrank" language="python" languageVersion="3" fileNameTemplate="${velocity.camelCaseName(${challenge.slug})}" codeTemplate="$challenge.header&#10;$challenge.template&#10;$challenge.tail" />
+      </list>
+    </option>
+  </component>
+</project>
