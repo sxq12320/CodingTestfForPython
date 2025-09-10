@@ -1,0 +1,36 @@
+class Solution:
+    def searchRange(self, nums: List[int], target: int) -> List[int]:
+        n = len(nums)
+        ans = []
+        left = 0
+        right = n-1
+
+        while left <= right:
+            mid = (left + right)//2
+            middle = nums[mid]
+            if middle >= target: # right 的右边一定的大于等于target
+                right = mid - 1
+            elif middle < target: # left的左边一定小于target
+                left = mid + 1
+        ans.append(left)
+        if left == n or nums[left] != target:
+            return [-1 , -1]
+
+        left = 0
+        right = n-1
+        while left <= right:
+            mid = (left + right) // 2
+            middle = nums[mid]
+            if middle > target: # right的右边一定大于target
+                right = mid -1
+            elif middle <= target: # left的左边一定小于等于target
+                left = mid +1
+        ans.append(right)
+        return ans
+
+
+
+        
+
+# runtime:0 ms
+# memory:18.7 MB
